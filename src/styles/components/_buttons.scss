@@ -1,0 +1,56 @@
+@use '../variables';
+
+.button {
+    padding: 12px 48px;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 30px;
+
+    &--primary {
+        color: #fff;
+        background-color: goldenrod;
+        text-align: center;
+        justify-content: center;
+        transition: transform 0.2s ease;
+    }
+
+    &--primary:hover {
+        transform: scale(0.95);
+        background-color: rgb(211, 152, 2);
+    }
+
+
+    &--secondary {
+        color: #fff;
+        background-color: goldenrod;
+        text-align: center;
+        justify-content: center;
+        transition: transform 0.2s ease;
+        width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    &--secondary:hover {
+        transform: scale(0.95);
+        background-color: rgb(211, 152, 2);
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+
+    @media (max-width: 640px) {
+        font-size: 18px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    
+}

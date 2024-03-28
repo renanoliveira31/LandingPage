@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become The Future</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container text-center gx-1">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img class="hero__logo" src="/src/images/logo1.png" alt="LOGO">
+            <p class="hero__text">
+                Sua transformação começa em </br> <span id="contador"></span>
+            </p>
+            <a href="#" class="button button--primary">
+                Garanta sua vaga
+            </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="principal">
+    <section>
+        <div class="container text-center mb-5">
+            <div class="col">
+                <a href="#" class="principal__text__title">
+                    O que você vai receber
+                </a>
+            </div>
+                <div class="row align-items-center">
+                    <div class="col palestra">
+                        <img class="principal__image mt-5" src="./images/1.png" alt="CEO">
+                    </div>
+                    <div class="col">
+                <p class="principal__text px-5" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ducimus. Rem, enim facere! At aliquid quas praesentium, aperiam nisi quo placeat, debitis veniam est labore eum possimus perspiciatis nulla iusto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section style=" border-bottom: 2px dashed rgb(231, 231, 231); margin-bottom: 2em;">
+        <div class="container text-center mb-5">
+                <div class="row align-items-center">
+                    <div class="col order-sm-2 order-lg-1 custom-order1">
+                        <p class="principal__text px-5" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ducimus. Rem, enim facere! At aliquid quas praesentium, aperiam nisi quo placeat, debitis veniam est labore eum possimus perspiciatis nulla iusto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                    <div class="col palestra order-sm-1 order-lg-2 custom-order">
+                        <img class="principal__image" src="./images/img1.jpg" alt="CEO">
+                    </div>
+                </div>
+                <div class="col">
+                    <a href="#" class="button button--secondary mt-5">
+                        Eu Quero
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="accordion" id="accordionanswer">
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button bg-yellow" style="background-color: black; font-weight: bold; font-size: 21px; color: white;"data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Para quem é o Curso?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionanswer">
+                <div class="accordion-body accordion-content">
+                  <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</strong> Dolor facere, harum, ratione non voluptatum tempora laborum magnam, ipsa vero accusantium blanditiis magni explicabo quam libero eum adipisci? Minus, odit id?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button bg-yellow" style="background-color:black; font-weight: bold; font-size: 21px; color: white;"data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Posso parcelar o curso?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionanswer">
+                <div class="accordion-body accordion-content">
+                    <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</strong> Dolor facere, harum, ratione non voluptatum tempora laborum magnam, ipsa vero accusantium blanditiis magni explicabo quam libero eum adipisci? Minus, odit id?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button bg-yellow" style="background-color: black; border-color: goldenrod; font-weight: bold; font-size: 21px; color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Qual será o cronograma?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionanswer">
+                <div class="accordion-body accordion-content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nobis. Aut velit dolor illo. Optio sint eligendi voluptas ab quibusdam numquam doloremque, exercitationem sunt labore et, aliquam consequuntur iusto tempora.
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    </main>
+    <footer class="text-light py-3" style="background-color: black;">
+        <div class="container text-center">
+            <p class="mb-0" style="color: goldenrod;">Made by Renan Oliveira - 2024 - All rights reserved</p>
+        </div>
+    </footer>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
